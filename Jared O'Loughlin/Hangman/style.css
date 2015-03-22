@@ -1,0 +1,44 @@
+body {
+      background-image: url(http://www.ambrosiasw.com/assets/images/graphics_products/ipadwallpaper/wallpaper/WildWest.jpg);
+      background-size: cover;
+    }
+
+    .wrapper {
+      width:600px;
+      margin: auto;
+      font-size: 1.5em;
+      position: relative;
+      text-align: center;
+    }
+
+    #wordString {
+        font-size: 4em;
+    }
+    #letterField {
+        border: 1px solid #ccc;
+        font-size: 2em;
+        padding: .2em;
+        width: 1em;
+        text-align: center;
+    }
+    #guessBox {
+        width: 500px;
+
+    }
+
+    #btnGiveUp {
+      float:left;
+    }
+
+    #resetButton {
+      float:right;
+    }
+    #lettersUsed {
+      position: absolute;
+      right:0;
+      top:0;
+    }
+    h1 {
+      font-family: "helldorado";
+      font-size:3.3em;
+    }
